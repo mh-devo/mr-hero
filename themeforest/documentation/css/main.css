@@ -1,0 +1,135 @@
+/* start fonts */
+@font-face {
+    font-family: 'Felix-titling';
+    src: url("../webfonts/FELIXTI.TTF") format("truetype");
+}
+@font-face {
+    font-family: 'Questrial-Regular';
+    src: url("../webfonts/Questrial-Regular.otf") format("truetype");
+}
+/* end fonts */
+body {
+    font-family: 'Questrial-Regular';
+}
+/*------------------ start navbar doc --------------------*/
+nav {
+    position: fixed;
+    width: 260px;
+    height: 794px;
+    background-color: #ffffff;
+    border-right: 2px solid #ddd;
+    overflow: auto;
+}
+nav ul {
+    list-style: none;
+    padding: 50px 20px;
+}
+nav ul li {
+    margin: 10px 0;
+    font-size: 20px;
+    border-bottom: 1px solid #DDD;
+    padding: 5px 0;
+}
+nav ul .support,
+nav ul .credits,
+nav ul .people,
+nav ul .portfolio-nav,
+nav ul .wcm-nav,
+nav ul .getting {
+    padding-left: 23px;
+}
+nav ul li span {
+    padding-right: 8px;
+}
+nav ul .navbar {
+    display: block;
+    padding: 5px 0;
+}
+nav ul .contact-nav .down,
+nav ul .blog-nav .down,
+nav ul .service-nav .down,
+nav ul .exp-nav .down,
+nav ul .about-nav .down,
+nav ul .header-nav .down,
+nav ul .navbar .down {
+    display: none;
+}
+nav ul .contact-nav ul,
+nav ul .blog-nav ul,
+nav ul .service-nav ul,
+nav ul .exp-nav ul,
+nav ul .about-nav ul,
+nav ul .header-nav ul,
+nav ul .navbar ul {
+    display: none;
+    padding: 10px 25px;
+}
+/*------------------------------------- end navbar doc ---------------*/
+/*-------------------------------------- start wrapper ---------------*/
+.wrapper {
+    width: calc(100% - 260px);
+    float: right;
+    padding: 50px 30px 10px 30px;
+}
+/*-------------------------------------- end wrapper -------------------*/
+/*--------------------------------- start header doc -----------------------*/
+header {
+    width: calc(100% - 260px);
+    float: right;
+    padding: 50px 30px 10px 30px;
+    background-color: #e6e6e6;
+}
+header h1 {
+    font-size: 7vw;
+}
+header h1 span {
+    color: #86c2fd;
+}
+header p:last-child,
+header h3 {
+    color: #7e8890;
+}
+header .text-support {
+    font-size: 18px;
+}
+/*--------------------------------- end header doc -------------------*/
+/*----------------------------- start getting started ------------*/
+.wrapper .getting-started p:last-child span {
+    font-weight: bold;
+}
+.wrapper p {
+    margin-bottom: 0;
+}
+.wrapper .space {
+    margin-bottom: 25px;
+}
+.wrapper .dspace {
+    margin-bottom: 50px;
+}
+.wrapper .code-color {
+    background-color: coral;
+}
+.wrapper img {
+    margin: 10px 0;
+}
+.wrapper .code {
+    display: block;
+    padding: 10px;
+    background-color: #ddd;
+}
+/*----------------------------- end getting started ------------*/
+.wrapper .support,
+.wrapper .credits,
+.wrapper .contact,
+.wrapper .blog,
+.wrapper .people,
+.wrapper .portfolio,
+.wrapper .services,
+.wrapper .wcm,
+.wrapper .exp,
+.wrapper .about,
+.wrapper .header,
+.wrapper .navbar {
+    margin-top: 80px;
+    display: block;
+}
